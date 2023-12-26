@@ -76,7 +76,7 @@ const Footer = () => {
 
             <section style={footerSectionStyle}>
                 <div style={footerContainerStyle}>
-                © 2023 <Link style={{color:'green'}} to='/home'>
+                © 2023 <Link style={{color:'green'}} to='/'>
                 jmvsolution.
                 </Link> All Rights Reserved
                 </div>
