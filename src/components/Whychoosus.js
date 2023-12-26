@@ -18,7 +18,7 @@ const WhyChooseUsAndHappyClients = () => {
                     </div>
                     <div style={imageContainerStyle}>
                         <img
-                            src="https://via.placeholder.com/400"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_NDSjpYVYTRDiyLQC2rRzR8wRARwAwI6Ibw&usqp=CAU"
                             alt="Image 1 (Placeholder)"
                             style={imageStyle}
                         />
@@ -36,7 +36,7 @@ const WhyChooseUsAndHappyClients = () => {
                     </div>
                     <div style={imageContainerStyle}>
                         <img
-                            src="https://via.placeholder.com/400"
+                            src="https://ensurepolicy.com/public/frontend/img/Image_2.png"
                             alt="Image 2 (Placeholder)"
                             style={imageStyle}
                         />
@@ -55,7 +55,7 @@ const WhyChooseUsAndHappyClients = () => {
                     </div>
                     <div style={imageContainerStyle}>
                         <img
-                            src="https://via.placeholder.com/400"
+                            src="https://thumbs.dreamstime.com/z/concept-housing-relocation-happy-family-mother-father-kids-roof-home-concept-housing-relocation-happy-141599827.jpg?w=768"
                             alt="Image 3 (Placeholder)"
                             style={imageStyle}
                         />

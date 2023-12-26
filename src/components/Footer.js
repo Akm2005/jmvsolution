@@ -67,7 +67,6 @@ const Footer = () => {
             </section>
 
             <section style={aboutSectionStyle}>
-                {/* About Us Section */}
                 <div style={aboutContentStyle}>
                     <h2 style={{color:'green'}}>About Us</h2>
                     <p>Your Insurance Broker is committed to providing top-notch insurance solutions with a focus on customer satisfaction. With years of experience, we understand the importance of protecting what matters most to you.</p>
