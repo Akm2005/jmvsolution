@@ -1,0 +1,32 @@
+/* Common styles for service cards */
+.service-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for service cards */
+  .service-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Link styles */
+  .service-link {
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit the text color from the parent */
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 600px) {
+    .service-card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Retain box shadow on mobile */
+      margin-bottom: 10px; /* Add margin to create a gap between cards */
+    }
+  
+    .service-card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Retain hover effect on mobile */
+    }
+  }
+  

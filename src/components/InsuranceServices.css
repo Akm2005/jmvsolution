@@ -1,0 +1,25 @@
+/* InsuranceServices.css */
+.insurance-services-container {
+    display: flex;
+    flex-direction: column; /* By default, use a column layout for mobile */
+  }
+  
+  .insurance-service {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%; /* By default, each service takes full width in a column layout */
+  }
+  
+  /* Media query for desktop view */
+  @media (min-width: 768px) {
+    .insurance-services-container {
+      flex-direction: row; /* Switch to a row layout for desktop */
+      justify-content: space-between;
+    }
+  
+    .insurance-service {
+      width: 30%; /* Adjust the width of each service for desktop */
+    }
+  }
+  
