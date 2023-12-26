@@ -7,10 +7,10 @@ import './Services.css';
 const Services = () => {
   return (
     <Container className="my-5">
-      <h2 className="text-center mb-4">Our Services</h2>
+      <h1 className="text-center mb-4" style={{ color: 'green', borderBottom: '2px solid green', fontFamily: 'Arial, sans-serif'}}>Our Services</h1>
       <Row className="justify-content-center">
         <Col lg={4} md={6} sm={12}>
-          <Link to="/life-insurance" className="service-link">
+          <Link to="/Contact" className="service-link">
             <div className="service-card text-center">
               <img
                 src="https://ensurepolicy.com/public/frontend/img/icon/Icon_3.png"
@@ -23,7 +23,7 @@ const Services = () => {
           </Link>
         </Col>
         <Col lg={4} md={6} sm={12}>
-          <Link to="/health-insurance" className="service-link">
+          <Link to="/Contact" className="service-link">
             <div className="service-card text-center">
               <img
                 src="https://ensurepolicy.com/public/frontend/img/icon/Icon_2.png"
@@ -36,7 +36,7 @@ const Services = () => {
           </Link>
         </Col>
         <Col lg={4} md={6} sm={12}>
-          <Link to="/property-insurance" className="service-link">
+          <Link to="/Contact" className="service-link">
             <div className="service-card text-center">
               <img
                 src="https://ensurepolicy.com/public/frontend/img/icon/Icon_1.png"

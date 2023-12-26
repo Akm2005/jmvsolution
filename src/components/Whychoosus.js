@@ -6,7 +6,7 @@ const WhyChooseUsAndHappyClients = () => {
             <div style={containerStyle}>
                 <div style={contentContainerStyle}>
                     <div style={textContentStyle}>
-                        <h2 style={sectionHeadingStyle}>Why Choose Us?</h2>
+                        <h2 style={{ ...sectionHeadingStyle, color: 'green', borderBottom: '2px solid green', fontFamily: 'Arial, sans-serif' }}>Why Choose Us?</h2>
                         <p style={sectionDescriptionStyle}>
                             Explore our comprehensive insurance services tailored to meet your unique needs.
                         </p>
@@ -26,7 +26,9 @@ const WhyChooseUsAndHappyClients = () => {
                 </div>
                 <div style={contentContainerStyle}>
                     <div style={textContentStyle}>
-                        <h2 style={sectionHeadingStyle}>Our Clients Are Happy</h2>
+                        <h2 style={{ ...sectionHeadingStyle, color: 'green', borderBottom: '2px solid green', fontFamily: 'Arial, sans-serif' }}>
+                            Our Clients Are Happy
+                        </h2>
                         <p style={sectionDescriptionStyle}>
                             Nothing gives us greater pride than seeing our clients delighted with the work we’ve done together.
                             Our case studies are solid proof of all the different ways we’ve transformed the way people collaborate, work, and succeed.
@@ -42,7 +44,9 @@ const WhyChooseUsAndHappyClients = () => {
                 </div>
                 <div style={contentContainerStyle}>
                     <div style={textContentStyle}>
-                        <h2 style={sectionHeadingStyle}>We Make It Personal</h2>
+                        <h2 style={{ ...sectionHeadingStyle, color: 'green', borderBottom: '2px solid green', fontFamily: 'Arial, sans-serif' }}>
+                            We Make It Personal
+                        </h2>
                         <p style={sectionDescriptionStyle}>
                             When you work with us, you can count on personalized, one-on-one service every step of the way.
                             We earn your trust by being responsive, intuitive, and honest. We earn your respect by delivering on time and on budget.
@@ -61,6 +65,9 @@ const WhyChooseUsAndHappyClients = () => {
         </section>
     );
 };
+
+// Rest of the styles remain unchanged
+
 
 // Styles for the extended section
 const sectionStyle = {

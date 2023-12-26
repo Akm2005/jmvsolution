@@ -37,7 +37,7 @@ const Partners = () => {
   return (
     <section className="_about_clients_main">
       <Container className="mywidthfix wow fadeInDown delay-04s">
-        <h3 className="_common_heading">Our Partners</h3>
+        <h1 className="text-center mb-4 " style={{ color: 'green', borderBottom: '2px solid green', fontFamily: 'Arial, sans-serif'}}>Our Partners</h1>
 
         <div className="_about_clients_wrapper wow fadeInDown slick-initialized slick-slider">
           <Slider {...settings}>
