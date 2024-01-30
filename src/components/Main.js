@@ -16,7 +16,7 @@ const Header = () => {
 };
 
 const bannerStyle = {
-    background: '#DBEEBF',
+    background: '#333',
     color: '#fff',
     padding: '100px 20px',
     textAlign: 'center',
